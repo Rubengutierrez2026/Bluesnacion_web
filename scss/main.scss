@@ -1,0 +1,13 @@
+//  base 
+@use './partials/base/reset';
+@use './partials/base/tipografia';
+
+// componentes
+
+@use './partials/componets/header';
+@use './partials/componets/cards';
+@use './partials/componets/imagfon';
+@use './partials/componets/footer';
+@use './partials/componets/Histori';
+@use './partials/componets/videos';
+@use './partials/componets/media';

@@ -1,0 +1,33 @@
+.p-hist{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2fr);
+    min-height: 500px;
+    // align-items: flex-end; 
+    font-size: 16px;
+    color: yellow;
+    
+    
+}
+.col{
+    width: 510px;
+    height: 600px;
+}
+.img-robert{
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+    gap: 10px;
+}
+.imghist{
+    width: 500px;
+    height: 300px;
+}
+.parr{
+    width: 300px;
+    height: 600px;
+    max-width: 1rem;
+}
+.footer-his{
+   
+}

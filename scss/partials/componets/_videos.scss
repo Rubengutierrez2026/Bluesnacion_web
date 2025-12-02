@@ -1,0 +1,25 @@
+.container-video{
+   display: grid;
+   grid-template-columns: 150px 150px 100px;
+   grid-template-rows: 80px 80px 80px;
+   flex-direction: row;
+   justify-content: center;
+   gap: 10px;
+   margin: 1rem;
+   
+   
+
+   border: 2px solid black
+}
+.img_video{
+    width: 150px;
+    height: 250px;
+    
+}
+.link-video{
+    color: yellow;
+    display: flex;
+   justify-content: center;
+   justify-items: center;
+   gap: 2rem;
+}

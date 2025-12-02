@@ -57,13 +57,6 @@ h1 {
   margin: 1rem;
 }
 
-.card-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-
 .card {
   width: 150px;
   height: 200px;
@@ -74,12 +67,31 @@ h1 {
   margin: 1rem 1rem;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 1000px;
+  grid-template-rows: 60px 60px 60px 60px;
+  justify-content: first baseline;
+  gap: 2rem;
+}
+
+.p-artis1 {
+  font-size: 23px;
+  color: yellow;
+  margin-top: 4rem;
+}
+
+.p-artis2 {
+  font-size: 23px;
+  color: yellow;
+  margin-top: 2rem;
+}
+
 .fondo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  border: 2px solid yellow;
   width: 1200px;
   height: 550px;
   margin-left: 140px;
@@ -148,17 +160,11 @@ h1 {
   gap: 2rem;
 }
 
-@media (max-widht: 450px) {
-  .imgfondo {
-    width: 200px;
-    height: 100px;
-  }
-}
-@media (max-widht: 450px) {
-  .navbarnavbar navbar-expand-lg bg-body-tertiary {
-    width: 100px;
-    height: 50px;
-  }
+.row1 {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-self: center;
+  align-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */

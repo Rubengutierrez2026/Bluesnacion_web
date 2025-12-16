@@ -5,20 +5,25 @@
     color: white;
    }
    font-size: 20px;
-  
-   
 }
+  .navbar-toggler{
+    background-color: #ffc107;
+  }
+   
+
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background-color: #000 !important;
 }
 .navbar{
     --bs-navbar-active-color: #ffc107;
+    justify-content: center;
 }
     .navbar-expand-lg .navbar-collapse {
-        display: flex !important;
+        
         flex-basis: content;
         justify-content: flex-end;
+        
         margin-right: 280px;
         margin-bottom: -70px;
     }

@@ -1,12 +1,20 @@
 .p-hist{
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(2fr);
-    min-height: 500px;
+    grid-template-columns: 299px 299px 299px ;
+    grid-template-rows: 660px 660px 660px;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    gap: 14rem;
+    margin: 2rem;
+    
+    
+    
+    
     // align-items: flex-end; 
     font-size: 16px;
     color: yellow;
-    
+    // border: 2px solid yellow;
+    min-height: 500px;
     
 }
 .col{
@@ -17,7 +25,7 @@
     width: 500px;
     height: 300px;
     margin-right: 100px;
-    gap: 10px;
+    gap: 1rem;
 }
 .imghist{
     width: 500px;
@@ -27,7 +35,4 @@
     width: 300px;
     height: 600px;
     max-width: 1rem;
-}
-.footer-his{
-   
 }

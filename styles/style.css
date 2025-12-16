@@ -12,14 +12,23 @@ body {
 /* font-family: "Cairo", sans-serif; */
 h1 {
   color: yellow;
+  text-decoration: underline;
   text-align: center;
   margin-top: 10px;
 }
 
 .h2-estil {
+  font-size: 20px;
   color: yellow;
   text-decoration: underline;
-  margin-bottom: 1rem;
+  margin: 1rem;
+}
+
+h3 {
+  font-size: 20px;
+  text-decoration: underline;
+  color: yellow;
+  margin-top: 2rem;
 }
 
 .nav-link {
@@ -33,6 +42,10 @@ h1 {
   font-size: 20px;
 }
 
+.navbar-toggler {
+  background-color: #ffc107;
+}
+
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
   background-color: #000 !important;
@@ -40,10 +53,10 @@ h1 {
 
 .navbar {
   --bs-navbar-active-color: #ffc107;
+  justify-content: center;
 }
 
 .navbar-expand-lg .navbar-collapse {
-  display: flex !important;
   flex-basis: content;
   justify-content: flex-end;
   margin-right: 280px;
@@ -70,15 +83,16 @@ h1 {
 .card-container {
   display: grid;
   grid-template-columns: 150px 150px 150px 1000px;
-  grid-template-rows: 60px 60px 60px 60px;
-  justify-content: first baseline;
-  gap: 2rem;
+  grid-template-rows: 60px 60px 60px 250px;
+  justify-content: flex-start;
+  justify-items: end;
+  gap: 1rem;
 }
 
 .p-artis1 {
-  font-size: 23px;
+  font-size: 21px;
   color: yellow;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .p-artis2 {
@@ -98,19 +112,17 @@ h1 {
   margin-top: 10px;
 }
 
-.footer-p {
-  color: yellow;
-  margin: 2rem;
-  margin-bottom: 1rem;
-}
-
 .p-hist {
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  grid-template-rows: repeat(2fr);
-  min-height: 500px;
+  grid-template-columns: 299px 299px 299px;
+  grid-template-rows: 660px 660px 660px;
+  justify-items: flex-start;
+  flex-wrap: wrap;
+  gap: 14rem;
+  margin: 2rem;
   font-size: 16px;
   color: yellow;
+  min-height: 500px;
 }
 
 .col {
@@ -122,7 +134,7 @@ h1 {
   width: 500px;
   height: 300px;
   margin-right: 100px;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .imghist {
@@ -138,13 +150,12 @@ h1 {
 
 .container-video {
   display: grid;
-  grid-template-columns: 150px 150px 100px;
-  grid-template-rows: 80px 80px 80px;
+  grid-template-columns: 150px 150px 100px 800px;
+  grid-template-rows: 80px 80px 80px 80px;
   flex-direction: row;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-around;
+  gap: 20px;
   margin: 1rem;
-  border: 2px solid black;
 }
 
 .img_video {
@@ -160,11 +171,68 @@ h1 {
   gap: 2rem;
 }
 
+.link-playlist {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  flex-direction: row;
+  color: yellow;
+}
+
+.parrafo-artis {
+  display: flex;
+  justify-content: flex-end;
+  color: yellow;
+  font-size: 17px;
+}
+
+.List-link {
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.List-link :hover {
+  color: beige;
+}
+
 .row1 {
   display: grid;
   grid-template-columns: 600px 600px;
   justify-self: center;
   align-self: center;
+}
+
+.footer-p {
+  display: grid;
+  grid-template-columns: 10px 299px;
+  grid-template-rows: 1px 1px;
+  border: 1px solid white;
+  background-color: white;
+  color: yellow;
+  margin: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  text-decoration: solid;
+}
+
+.ul-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-end;
+  gap: 1rem;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.copy {
+  justify-content: start;
+  color: yellow;
+  margin: right 10rem;
+}
+
+.img_video:hover {
+  transform: translate(20px 40px);
 }
 
 /*# sourceMappingURL=style.css.map */

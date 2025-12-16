@@ -1,3 +1,8 @@
-.img_video:hover{
-    transform: translate(20px 40px);
+.card{
+    width: 180px;
+    height: 300px;
 }
+.card :hover{
+   transform: scale(1.1);
+}
+

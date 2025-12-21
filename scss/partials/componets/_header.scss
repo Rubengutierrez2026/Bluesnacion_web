@@ -2,14 +2,14 @@
    color: #ffc107;
    text-decoration: underline; 
    &:hover{
-    color: white;
+    color:white;
    }
    font-size: 20px;
 }
   .navbar-toggler{
     background-color: #ffc107;
   }
-   
+
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
@@ -24,13 +24,13 @@
         flex-basis: content;
         justify-content: flex-end;
         
-        margin-right: 280px;
-        margin-bottom: -70px;
+        margin-right: 220px;
+        margin-bottom: 10px;
     }
  .animate__animated {
     height: 100px;
     padding-top: 20px;
-    padding-left: 150px;
+    padding-left: 100px;
     margin: 1rem;
  }  
  

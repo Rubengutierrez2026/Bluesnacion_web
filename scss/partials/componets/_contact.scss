@@ -1,8 +1,35 @@
-.row1{
-    
+.custom-form{
     display: grid;
-    grid-template-columns: 600px 600px;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    
+
+}
+form{
+    justify-content: center;
+    // border: 1px solid yellow;
+    label{
+        color: yellow;
+    }
+}
+.custom-form{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100rem ;
+    max-width: 100rem;
+    margin-left: 1rem;
+}
+.custom-form input {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.custom-form .btn{
+  width: 200px;
+  margin: 3rem;
   
 }

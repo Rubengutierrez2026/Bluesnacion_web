@@ -5,4 +5,11 @@
 .card :hover{
    transform: scale(1.1);
 }
-
+.video {
+     width: 150px;
+    height: 250px;
+}
+.video:hover{
+    transform: scale(1.1);
+    color: white;
+}

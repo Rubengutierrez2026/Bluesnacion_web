@@ -23,6 +23,13 @@
    justify-content: center;
    justify-items: center;
    gap: 2rem;
+   & :hover{
+    color: white;
+        
+   }
+   
+
+   
 }
 .link-playlist {
     display: flex;

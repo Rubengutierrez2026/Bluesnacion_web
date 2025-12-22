@@ -1,83 +1,91 @@
-
-@media (max-width: 450px)  {
-    .fondo{
+@media (max-width: 450px) {
+    .fondo {
         width: 385px;
         height: 300px;
         justify-items: flex-start;
         margin-left: 40px;
         margin-top: 2rem;
-        .navbar-toggler{
+
+        .navbar-toggler {
             width: 10px;
             height: 2px;
             margin: 1rem;
-            margin-bottom: 5rem;
+            margin-bottom: 1rem;
             padding-left: 1rem;
-            .nav-link{
+
+            .nav-link {
                 justify-content: flex-start;
-                justify-content: flex-start;    
-                font-size:1px;
-           }
+                justify-content: flex-start;
+                font-size: 1px;
+            }
         }
-    } 
-    @media(max-width:450){
-        .container-fluid{
-        display: flex;
-        flex-wrap: inherit;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
+    }
+
+    @media(max-width:450) {
+        .container-fluid {
+            flex-direction: column;
+            align-content: flex-start;
+            align-items: flex-start;
+
 
         }
-    }  
+    }
 }
+
 @media (max-width: 450px) {
-    .animate__animated{
+    .animate__animated {
         width: 130px;
         height: 90px;
         padding-left: 1px;
         margin-left: 5px;
     }
 }
+
 // nav bar
 @media (max-width: 450px) {
-   .navbar-toggler-icon{
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 10px;
-    height: 8px;
-   }
-}
-// division footer
-@media (max-width:450px) {
-.footer-p{
- width: 460px;
- height: 1px;
- justify-content: space-between;
- justify-items:flex-start;
- margin: 1rem;
- margin-left: 1px;
- margin-top: 5rem;
-}  
+    .navbar-toggler-icon {
+        flex-direction: column;
+        justify-self: flex-start;
+        align-items: flex-start;
+        width: 10px;
+        height: 8px;
+    }
 }
 
-@media (max-width:450px){
-    .copy{
-   width: 200px;
-   height: 68px;
-   font-size: 12px;
- }
+// division footer
+@media (max-width:450px) {
+    .footer-p {
+        width: 460px;
+        height: 1px;
+        justify-content: space-between;
+        justify-items: flex-start;
+        margin: 1rem;
+        margin-left: 1px;
+        margin-top: 5rem;
+    }
 }
+
+@media (max-width:450px) {
+    .copy {
+        width: 200px;
+        height: 68px;
+        font-size: 12px;
+    }
+}
+
 // main historia
-@media (max-width: 450px){
-    .H1-histo{
+@media (max-width: 450px) {
+    .H1-histo {
         font-size: 23px;
         margin-top: 10px;
         margin-bottom: 50px;
-        
+        margin-right: 2rem;
+
     }
 }
-@media (max-width: 450px){
-    .h2-estil{
+
+@media (max-width: 450px) {
+    .h2-estil {
         justify-content: center;
         align-items: center;
         font-size: 14px;
@@ -85,27 +93,29 @@
         height: 35px;
         margin-bottom: 1rem;
         margin-top: 2rem;
-        
+
     }
 }
-@media (max-width:450px){
-    .h2_artistas{
+
+@media (max-width:450px) {
+    .h2_artistas {
         font-size: 14px;
         color: yellow;
         width: 200px;
         height: 35px;
         text-decoration: underline;
         margin: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
     }
 }
+
 @media (max-width: 450px) {
-    .p-hist{
-        grid-template-columns: 1px ;
+    .p-hist {
+        grid-template-columns: 1px;
         grid-template-rows: 1800px 2345px 1380px;
         flex-direction: column;
-       justify-content: flex-start;
+        justify-content: flex-start;
         font-size: 13px;
         // border: 2px solid yellow;
         margin-left: 1px;
@@ -113,35 +123,40 @@
         gap: 1rem;
     }
 }
+
 @media (max-width:450px) {
-    h3{
+    h3 {
         font-size: 13px;
     }
-} 
+}
+
 @media (max-width:450px) {
-    h3{
+    h3 {
         font-size: 11px;
     }
 }
-@media (max-width: 450px){
-    .imghist{
+
+@media (max-width: 450px) {
+    .imghist {
         width: 300px;
         height: 200px;
         padding: 1rem;
     }
 }
-@media(max-width:450px){
-    .img-robert{
+
+@media(max-width:450px) {
+    .img-robert {
         width: 300px;
         height: 200px;
         padding: 1rem;
     }
 }
+
 // CARDS ARTISTAS QUERIES
-@media (max-width: 450px){
-    .card-container{
-        grid-template-columns:300px;
-        grid-template-rows: 210px 180px 300px;
+@media (max-width: 450px) {
+    .card-container {
+        grid-template-columns: 300px;
+        grid-template-rows: 190px 190px 300px;
         justify-content: space-around;
         gap: 1rem;
         padding: 1rem;
@@ -149,82 +164,110 @@
         margin-bottom: 1rem;
     }
 }
-@media(max-width:450){
-    .card{
+
+@media(max-width:450) {
+    .card {
         justify-content: center;
         justify-items: center;
     }
 }
-@media (max-width:450px){
-    h3{
+
+@media (max-width:450px) {
+    h3 {
         font-size: 16px;
-        
+
     }
 }
-@media(max-width:450){
-    .p{
+
+@media(max-width:450) {
+    .p {
         align-items: center;
     }
 }
-@media(max-width:450px){
-    .p-artis1{
+
+@media(max-width:450px) {
+    .p-artis1 {
         justify-content: center;
         justify-items: center;
         font-size: 16px;
-        .p-artis{
+
+        .p-artis {
             font-size: 16px;
         }
     }
 }
-@media(max-width:450px){
-   .img-card{  
-    width: 120px;
-    height: 150px;
-    gap: 1rem;
-    justify-content:flex-start ;
+
+@media(max-width:450px) {
+    .img-card {
+        width: 120px;
+        height: 150px;
+        gap: 1rem;
+        justify-content: flex-start;
     }
 }
-@media(max-width:450px){
-    .h1-artis{
+
+@media(max-width:450px) {
+    .h1-artis {
         width: 200px;
         height: 100px;
         font-size: 20px;
-       justify-content: flex-start;
-       margin-top: 5rem;
-        
-    }
-}
-// escucha blues
-@media(max-width:450){
-      
-}
-@media(max-width:450px){
-    .parrafo-artis{
-        font-size: 16px;
-}
-}
-@media(max-width:450px){
-    .img_video{
-        width: 100px;
-        height: 150px;
-        
-    }
-}
-@media(max-width:450px){
-    .link-video{
         justify-content: center;
+        margin-top: 1rem;
+        margin-left: 7rem;
+
+    }
+}
+
+// escucha blues
+@media(max-width:450) {
+    .h1-escucha {
+        font-size: 16px;
+        justify-content: flex-start;
+        align-items: start;
+        text-align: start;
+    }
+}
+
+@media(max-width:450px) {
+    .parrafo-artis {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:450px) {
+    .img_video {
+        width: 150px;
+        height: 150px;
+        margin: right 4rem;
         justify-items: center;
+
+    }
+}
+
+@media(max-width:450px) {
+    .link-video {
+        justify-content: flex-start;
+        justify-items: start;
         margin-left: 5px;
-
     }
 }
-// contactos
-@media(max-width:450px){
-    .custom-form{
+
+@media(max-width:450px) {
+    .container-video {
+        grid-template-columns: 300px;
+        grid-template-rows: 200px 200px 200px;
         justify-content: start;
-    }
-      
-    
-}
-    
+        justify-items: start;
+        font-size: 14px;
 
+    }
+}
+
+// contactos
+@media(max-width:450px) {
+    .custom-form {
+        justify-content:flex-start; 
+        margin-left: 4rem;
+    }
+
+}

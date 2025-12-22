@@ -63,7 +63,7 @@ h3 {
 
 .navbar-expand-lg .navbar-collapse {
   flex-basis: content;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-right: 220px;
   margin-bottom: 10px;
 }
@@ -317,14 +317,25 @@ form label {
     margin-top: 2rem;
   }
   .fondo .navbar-toggler {
-    width: 4px;
+    width: 10px;
     height: 2px;
     margin: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     padding-left: 1rem;
   }
   .fondo .navbar-toggler .nav-link {
+    justify-content: flex-start;
+    justify-content: flex-start;
     font-size: 1px;
+  }
+}
+@media (max-width: 450px) and (max-width: 450) {
+  .container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
   }
 }
 @media (max-width: 450px) {
@@ -337,6 +348,8 @@ form label {
 }
 @media (max-width: 450px) {
   .navbar-toggler-icon {
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 10px;
     height: 8px;
   }
